@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Enterprise Template | Home</title>
+    <meta name="description" content="A premium responsive multi-page website template for business clients, styled in vibrant high-contrast colors with scrolling entry animations." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- Navbar (Global Framework Navigation) -->
+    <nav class="navbar">
+      <div class="nav-content">
+        <div class="logo">
+          <a href="index.html">
+            <svg width="32" height="32" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="512" height="512" rx="120" fill="var(--main-color)"/>
+              <path d="M160 140H352V180H160V140ZM160 236H352V276H160V236ZM160 332H290V372H160V332Z" fill="white"/>
+            </svg>
+          </a>
+        </div>
+
+        <ul class="nav-links">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown desktop-only">
+            <a href="#" class="drop-btn">Services <span class="arrow">&#9662;</span></a>
+            <ul class="dropdown-content">
+              <li><a href="service1.html">Service 1</a></li>
+              <li><a href="service2.html">Service 2</a></li>
+              <li><a href="service3.html">Service 3</a></li>
+            </ul>
+          </li>
+          <li class="mobile-only"><a href="service1.html">Service 1</a></li>
+          <li class="mobile-only"><a href="service2.html">Service 2</a></li>
+          <li class="mobile-only"><a href="service3.html">Service 3</a></li>
+          <li class="active"><a class="button-links nav-action-button" href="contact.html" style="padding: 0.5rem 1.25rem;">Get Started</a></li>
+        </ul>
+
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SECTION 1: Dynamic Hero Section -->
+    <section class="hero-banner">
+      <div class="container">
+        <div class="two-grid">
+          <div class="hero-content scroll-anim">
+            <span class="section-caption">Lorem Ipsum Adipiscing</span>
+            <h1>Retirement planning for the life you want</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed ex id eros lacinia porttitor ut eget dolor. Nam consequat luctus justo eget dictum.</p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <a class="button-links accent-button" href="contact.html">Get Started</a>
+              <a class="button-links light-button" href="about.html">More About Us</a>
+            </div>
+          </div>
+          <div class="scroll-anim scroll-delay-2 banner-img">
+            <img src="img/architecture.jpg" >
+          </div>
+          <!--
+          <div class="scroll-anim scroll-delay-2" style="display: flex; justify-content: center; align-items: center;">
+            <svg width="100%" height="auto" max-width="450px" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="250" cy="250" r="220" fill="var(--secondary-color)" fill-opacity="0.1" stroke="var(--secondary-color)" stroke-width="4"/>
+              <rect x="120" y="120" width="260" height="260" rx="40" fill="var(--main-color)"/>
+              <circle cx="250" cy="250" r="60" fill="white"/>
+              <path d="M230 210L290 250L230 290V210Z" fill="var(--main-color)"/>
+            </svg>
+          </div>-->
+        </div>
+        
+        <div class="center" style="margin-top: 4rem;">
+          <span class="section-caption">Where Our Clients Work</span>
+          <h3>Trusted by the leaders across industries</h3>
+        </div>
+      </div>
+      <div class="carousel-container">
+        <div class="carousel-track">
+          <div class="slide"><div class="placeholder-logo">Lorem Corp One</div></div>
+          <div class="slide"><div class="placeholder-logo">Lorem Corp Two</div></div>
+          <div class="slide"><div class="placeholder-logo">Lorem Corp Three</div></div>
+          <div class="slide"><div class="placeholder-logo">Lorem Corp Four</div></div>
+          <div class="slide"><div class="placeholder-logo">Lorem Corp Five</div></div>
+          <div class="slide"><div class="placeholder-logo">Lorem Corp Six</div></div>
+          
+          <div class="slide"><div class="placeholder-logo">Lorem Corp One</div></div>
+          <div class="slide"><div class="placeholder-logo">Lorem Corp Two</div></div>
+          <div class="slide"><div class="placeholder-logo">Lorem Corp Three</div></div>
+          <div class="slide"><div class="placeholder-logo">Lorem Corp Four</div></div>
+          <div class="slide"><div class="placeholder-logo">Lorem Corp Five</div></div>
+          <div class="slide"><div class="placeholder-logo">Lorem Corp Six</div></div>
+          
+          <div class="slide"><div class="placeholder-logo">Lorem Corp One</div></div>
+          <div class="slide"><div class="placeholder-logo">Lorem Corp Two</div></div>
+          <div class="slide"><div class="placeholder-logo">Lorem Corp Three</div></div>
+          <div class="slide"><div class="placeholder-logo">Lorem Corp Four</div></div>
+          <div class="slide"><div class="placeholder-logo">Lorem Corp Five</div></div>
+          <div class="slide"><div class="placeholder-logo">Lorem Corp Six</div></div>
+        </div>
+      
+      </div>
+    </section>
+
+    
+
+    <!-- SECTION 3: Split Section with Sticky Left -->
+    <section>
+      <div class="container">
+        <div class="two-grid">
+          <div class="left-sticky scroll-anim">
+            <span class="section-caption">The honest part</span>
+            <h2>Our Core Mission Finding the Path to Your Perfect Retirement</h2>
+            <p style="margin-top: 1rem; margin-bottom: 2rem;">We'll help you answer these questions...</p>
+            <a class="button-links accent-button" href="about.html">Lorem Button</a>
+          </div>
+          <div class="neutral-light-grey-card">
+            <ul class="vertical-list">
+              <li class="scroll-anim scroll-delay-1">
+                <span class="section-caption">01</span>
+                <h3>When can I retire?</h3>
+              </li>
+              <li class="scroll-anim scroll-delay-2">
+                <span class="section-caption">02</span>
+                <h3>Do I have enough money to retire comfortably?</h3>
+              </li>
+              <li class="scroll-anim scroll-delay-3">
+                <span class="section-caption">03</span>
+                <h3>How do I turn my savings into predictable monthly income?</h3>
+              </li>
+              <!--
+              <li class="scroll-anim scroll-delay-1">
+                <h3>Financial Planning</h3>
+                <p>Personalized financial plan based on your life stage, goals, and what matters most to you and your family.</p>
+                <span class="section-caption-below">Lorem Ipsum Highlight</span>
+              </li>
+              <li class="scroll-anim scroll-delay-2">
+                <h3>Retirement Income Planning</h3>
+                <p>Creating reliable income from multiple sources for a well-deserved and fulfilling retirement.</p>                
+                <span class="section-caption-below">Sed Aliquam Highlight</span>
+              </li>
+              <li class="scroll-anim scroll-delay-3">
+                <h3>Curabitur Quis Sapien</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam eleifend tempor.</p>
+                <span class="section-caption-below">Curabitur Highlight</span>
+              </li>
+              -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Stylized Main Color Band (Credential + Counter Metrics) -->
+    <section class="main-color-section dark-section">
+      <div class="container">
+        <div class="center scroll-anim" style="margin-bottom: 2rem; margin-top: 2rem;">
+          <span class="section-caption" style="color: var(--neutral-dark);">Our Real-time Stats</span>
+          <h2>Results in Numbers</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget lorem non ex rhoncus ultrices sed eget nisi.</p>
+        </div>
+        
+        <div class="center-figures scroll-anim">
+          <div class="vertical-figure">
+            <h2><span class="stat-counter" data-target="150">0</span>+</h2>
+            <p>Projects</p>
+          </div>
+          <div class="vertical-figure">
+            <h2><span class="stat-counter" data-target="99">0</span>%</h2>
+            <p>Satisfaction</p>
+          </div>
+          <div class="vertical-figure">
+            <h2><span class="stat-counter" data-target="45">0</span>M</h2>
+            <p>Reach</p>
+          </div>
+          <div class="vertical-figure">
+            <h2><span class="stat-counter" data-target="12">0</span>+</h2>
+            <p>Offices</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: Modern Bento Grid Showcase -->
+    <section style="background-color: var(--neutral-light-gray);">
+      <div class="container">
+        <div class="center scroll-anim" style="margin-bottom: 2rem; margin-top: 2rem;">
+          <span class="section-caption">Lorem Capabilities</span>
+          <h2>Our Custom Solutions</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sodales turpis nec justo semper euismod.</p>
+        </div>
+        
+        <div class="bento-grid">
+          <a class="bento-card col-span-2 scroll-anim scroll-delay-1">
+            <div>
+              <span class="section-caption">Lorem Strategy</span>
+              <h3>Lorem Ipsum Corporate Growth</h3>
+              <p style="margin-top: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id interdum metus, vel sollicitudin metus. Sed non nisl vel ex imperdiet euismod.</p>
+            </div>
+            <p href="service1.html" class="section-caption-below" style="display: inline-block; font-weight: 700;">Explore Strategy &rarr;</p>
+          </a>
+          
+          <a class="bento-card scroll-anim scroll-delay-2">
+            <div>
+              <span class="section-caption-secondary">Lorem Operations</span>
+              <h3>Lorem Ipsum Streamlining</h3>
+              <p style="margin-top: 0.5rem; font-size: 0.95rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis felis dolor.</p>
+            </div>
+            <p href="service2.html" class="section-caption-below" style="color: var(--secondary-color); font-weight: 700;">Explore Operations &rarr;</p>
+          </a>
+
+          
+          <a class="bento-card scroll-anim scroll-delay-3" href="service3.html">
+            <div>
+              <span class="section-caption-secondary">Lorem Security</span>
+              <h3>Lorem Compliance</h3>
+              <p style="margin-top: 0.5rem; font-size: 0.95rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <p href="service3.html" class="section-caption-below" style="color: var(--secondary-color); font-weight: 700;">Explore Security &rarr;</p>
+          </a>
+
+          <div class="bento-card col-span-2 scroll-anim scroll-delay-4">
+            <div>
+              <span class="section-caption">Lorem Innovation</span>
+              <h3>Lorem Ipsum Future Roadmap</h3>
+              <p style="margin-top: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis ipsum eget nunc facilisis hendrerit. Phasellus nec molestie ex, id finibus lacus.</p>
+            </div>
+            <p href="contact.html" class="section-caption-below" style="display: inline-block; font-weight: 700; color: inherit;">Get Roadmapped &rarr;</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: Three-Column Card Matrix with Stylized Captions -->
+    <section>
+      <div class="container">
+        <div class="center scroll-anim" style="margin-bottom: 4rem;">
+          <span class="section-caption">The Framework</span>
+          <h2>Our Interactive Methodology</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget porta ligula. Etiam non nibh finibus, iaculis dui quis, vestibulum risus.</p>
+        </div>
+
+        <div class="three-grid">
+          <div class="scroll-anim scroll-delay-1 light-grey-bg" style="padding: 2.5rem; border-radius: 16px;">
+            <div style="background-color: var(--main-color); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+              <span style="color: var(--neutral-light-gray); font-weight: 800; font-size: 1.25rem;">01</span>
+            </div>
+            <h3>Lorem Ideation</h3>
+            <p style="margin-top: 1rem; font-size: 0.95rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium efficitur rhoncus. Aliquam interdum lorem sed mi semper vulputate.</p>
+            <div><span class="section-caption-below">Ideation Caption</span></div>
+          </div>
+
+          <div class="scroll-anim scroll-delay-2 light-grey-bg" style="padding: 2.5rem; border-radius: 16px;">
+            <div style="background-color: var(--secondary-color); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+              <span style="color: var(--neutral-light-gray); font-weight: 800; font-size: 1.25rem;">02</span>
+            </div>
+            <h3>Lorem Prototyping</h3>
+            <p style="margin-top: 1rem; font-size: 0.95rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac pretium felis. Aliquam interdum, arcu quis iaculis pellentesque, sem ligula elementum.</p>
+            <div><span class="section-caption-below" style="color: var(--secondary-color);">Prototyping Caption</span></div>
+          </div>
+
+          <div class="scroll-anim scroll-delay-3 light-grey-bg" style="padding: 2.5rem; border-radius: 16px;">
+            <div style="background-color: var(--neutral-dark); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+              <span style="color: var(--neutral-light-gray); font-weight: 800; font-size: 1.25rem;">03</span>
+            </div>
+            <h3>Lorem Deployment</h3>
+            <p style="margin-top: 1rem; font-size: 0.95rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed nisl vitae nibh pellentesque pulvinar ac pulvinar ligula.</p>
+            
+            <div><span class="section-caption-below" style="color: var(--neutral-dark);">Deployment Caption</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: Immersive Secondary Color Band (Customer Testimony) -->
+    <section class="secondary-color-section dark-section">
+      <div class="container">
+        <div class="two-grid">
+          <div class="scroll-anim">
+            <span class="section-caption" style="color: var(--neutral-dark);">Testimonial</span>
+            <h2>Real people. Real plans. Real peace of mind.</h2>
+            <p style="margin-top: 1rem;">What our clients say.</p>
+          </div>
+          <div class="testimony-div scroll-anim scroll-delay-2" style="border-left-color: var(--neutral-dark);">
+            <h3>"Man I really love this design template, this is by far the best quote ever."</h3>
+            <p style="color: var(--neutral-dark);">— John Locke, Executive Client</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: Interactive FAQ Accordion -->
+    <section style="background-color: var(--neutral-light-gray);">
+      <div class="container">
+        <div class="center scroll-anim" style="margin-bottom: 4rem;">
+          <span class="section-caption">FAQ</span>
+          <h2>Frequently Asked Questions</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel arcu dictum, tincidunt enim at, efficitur dolor.</p>
+        </div>
+
+        <div class="faq-container scroll-anim">
+          <div class="faq-item">
+            <button class="faq-question">
+              Lorem ipsum dolor sit amet?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id finibus augue. Integer nec sollicitudin erat. Mauris finibus diam at erat rhoncus convallis. Fusce interdum tellus diam, at pulvinar lacus varius sed.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Sed aliquam consequat sem sit amet?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend risus at facilisis posuere. Praesent sodales elementum enim, vitae commodo tortor luctus sed. Phasellus molestie ex, id finibus lacus.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Curabitur quis sapien ac dolor?
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 9: Dynamic CTA Block -->
+     <section style="background-color: var(--neutral-light-gray);">
+      <div class="container ">
+        <div class="two-grid">
+        <div class="scroll-anim" style="max-width: 800px; margin: 0 auto;">
+          <span class="section-caption">Ready to connect?</span>
+          <h2>Let's Kick Off Your Project Today</h2>
+          <p>We read every message and reply within one business day.</p>
+          <div style="margin-top: 2rem;">
+            <a class="button-links accent-button" href="contact.html">Contact Us</a>
+          </div>
+        </div>
+        <div class="scroll-anim light-grey-bg card" style="max-width: 650px; margin: 0 auto;">
+          <span class="section-caption">Newsletter</span>
+          <h3>Join the Subscription</h3>
+          <p style="margin-bottom: 2rem;">Stay up to date and learn what you can do now to increase your retirement income.</p>
+          <form class="scroll-anim scroll-delay-2" style="width: 100%; display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+            <input type="fname" placeholder="First name" required style="flex: 1; min-width: 280px; padding: 1rem 1.25rem; border: none; border-radius: 50px; font-size: 1rem; color: var(--neutral-dark); background-color: var(--neutral-light); outline: none; transition: border-color var(--transition-speed);" />
+
+            <input type="email" placeholder="lorem@ipsum.com" required style="flex: 1; min-width: 280px; padding: 1rem 1.25rem; border: none; border-radius: 50px; font-size: 1rem; color: var(--neutral-dark); background-color: var(--neutral-light); outline: none; transition: border-color var(--transition-speed);" />
+            <button type="submit" class="button-links accent-button" style="padding: 1rem 2.5rem; border-radius: 50px; border: none; white-space: nowrap;">Subscribe</button>
+          </form>
+        </div>
+        
+      </div>
+      </div>
+    </section>
+
+    <!-- 
+    <section>
+      <div class="container">
+        <div class="center scroll-anim" style="max-width: 800px; margin: 0 auto;">
+          <span class="section-caption">Ready?</span>
+          <h2>Let's Kick Off Your Project Today</h2>
+          <p>We read every message and reply within one business day.</p>
+          <div style="margin-top: 2rem;">
+            <a class="button-links accent-button" href="contact.html">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>-->
+
+    <!-- SECTION: Newsletter Subscription -->
+
+<!--
+    <section class="newsletter-section" style="background-color: var(--neutral-light-gray); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); padding: 4.5rem 5%;">
+      <div class="container">
+        <div class="center scroll-anim" style="max-width: 650px; margin: 0 auto;">
+          <span class="section-caption">Lorem Newsletter</span>
+          <h2>Lorem Ipsum Subscription</h2>
+          <p style="margin-bottom: 2rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+          <form class="scroll-anim scroll-delay-2" style="width: 100%; display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+            <input type="email" placeholder="your@email.com" required style="flex: 1; min-width: 280px; padding: 1rem 1.25rem; border: none; border-radius: 50px; font-size: 1rem; color: var(--neutral-dark); background-color: var(--neutral-light); outline: none; transition: border-color var(--transition-speed);" />
+            <button type="submit" class="button-links accent-button" style="padding: 1rem 2.5rem; border-radius: 50px; border: none; white-space: nowrap;">Lorem Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  -->
+
+    <!-- Footer (Global Static Footer) -->
+    <footer class="light-footer">
+      <div class="footer-content">
+        <div class="logo">
+          <a href="index.html">
+            <svg width="40" height="40" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="512" height="512" rx="120" fill="var(--main-color)"/>
+              <path d="M160 140H352V180H160V140ZM160 236H352V276H160V236ZM160 332H290V372H160V332Z" fill="white"/>
+            </svg>
+          </a>
+          <p style="margin-top: 1rem; font-size: 0.95rem; max-width: 300px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis felis dolor, ut hendrerit.</p>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="service1.html">Service 1</a></li>
+          <li><a href="service2.html">Service 2</a></li>
+          <li><a href="service3.html">Service 3</a></li>
+          <li><a class="button-links nav-action-button" href="contact.html" style="padding: 0.5rem 1.25rem;">Get Started</a></li>
+        </ul>
+      </div>
+      <div class="container">
+        <p class="copyright">&copy; 2026 Dunne. All rights reserved. Built with Dunne premium grid layouts.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
